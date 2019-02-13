@@ -22,7 +22,7 @@ public class Elements
 			//Common Objects Across all the Screens
 			hm.put("eleCommonSearch", By.xpath("//*[contains(@id,'SearchLinksInputSet:Search')]"));
 			hm.put("eljCommonSearch", By.xpath("//*[contains(@id,'SearchLinksInputSet:Search')]"));
-			hm.put("eleCommonEdit", By.xpath("//*[contains(@id,'Edit-btnInnerEl')]"));
+
 			hm.put("eleCommonSelect", By.xpath("//*[contains(@id,'_Select')]"));
 			//hm.put("eleCommonAdd", By.xpath(".//span[contains(text(), 'Add')]"));
 			hm.put("eleCommonAdd", By.xpath(".//span[contains(text(), 'Add')]"));
@@ -85,6 +85,7 @@ public class Elements
 			hm.put("eleUserName", By.id("Login:LoginScreen:LoginDV:username-inputEl"));
 			hm.put("pwdPassword", By.id("Login:LoginScreen:LoginDV:password-inputEl"));  
 			hm.put("btnLogin", By.id("Login:LoginScreen:LoginDV:submit-btnInnerEl"));
+			hm.put("pwdUniversalUserName", By.name("USER"));
 			hm.put("pwdUniversalUserName", By.name("USER"));
 			hm.put("eleUniversalUserName", By.name("USER"));
 			hm.put("pwdUniversalPassword", By.name("PASSWORD"));  
